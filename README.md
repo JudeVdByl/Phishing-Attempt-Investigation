@@ -30,7 +30,8 @@ The main objective of this project is to confirm whether the phishing alert is a
    &&&
    This command extracted HTTP logs and identified suspicious activity from the network traffic.
 
-   ![Image 2](https://example.com/image2.png)  
+   ![Image 2]!(https://github.com/user-attachments/assets/70fb867d-8c23-409e-9abc-c6da07ebb84a)
+
    *Image 2: Command used to investigate logs with Zeek*
 
 2. **Suspicious Source Address (Defanged Format)**  
@@ -53,7 +54,8 @@ The main objective of this project is to confirm whether the phishing alert is a
    cat http.log
    &&&
    
-   ![Image 5](https://example.com/image5.png)  
+   ![Image 5](https://github.com/user-attachments/assets/f9e8baf3-ba2b-49d5-9ddf-c8867db11f72)
+
    *Image 5: Investigation of the `http.log` file showing the malicious domain*
 
 4. **Malicious Document in VirusTotal**  
@@ -66,7 +68,9 @@ The main objective of this project is to confirm whether the phishing alert is a
    zeek -Cr phishing.pcap file-extract-demo.zeek
    &&&
    
-   ![Image 7](https://example.com/image7.png)  
+   ![Image 7](https://github.com/user-attachments/assets/6a843110-bcf1-4a12-9d42-d239c87cb4c6)
+
+  
    *Image 7: File extraction analysis of the malicious VBA document*
 
 5. **Extracted Malicious Executable**  
@@ -76,7 +80,8 @@ The main objective of this project is to confirm whether the phishing alert is a
    &&&
    This analysis helped identify the executable responsible for the phishing attempt.
 
-   ![Image 9](https://example.com/image9.png)  
+   ![Image 9]![image](https://github.com/user-attachments/assets/45a605df-cb11-413b-9199-71fad8cd8097)
+
    *Image 9: Properties of the extracted malicious executable in VirusTotal*
 
 6. **Contacted Domain from Executable (Defanged Format)**  
@@ -86,7 +91,8 @@ The main objective of this project is to confirm whether the phishing alert is a
    &&&
    This information was extracted from VirusTotal.
 
-   ![Image 11](https://example.com/image11.png)  
+   ![Image 11](https://github.com/user-attachments/assets/67eff265-34f2-4435-9cad-247d61653b36)
+
    *Image 11: Investigating the contacted domain of the malicious executable*
 
 7. **Request Name of Downloaded Executable**  
@@ -99,7 +105,8 @@ The main objective of this project is to confirm whether the phishing alert is a
    cat http.log | grep -E '{3}\\{3}'
    &&&
    
-   ![Image 12](https://example.com/image12.png)  
+   ![Image 12](https://github.com/user-attachments/assets/d0a8d785-bc74-4324-9599-3fe5a07b35ea)
+
    *Image 12: Request name of the downloaded malicious executable*
 
 ## Summary of Findings
