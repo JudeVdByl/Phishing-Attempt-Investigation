@@ -41,7 +41,7 @@ The main objective of this project is to confirm whether the phishing alert is a
    &&&
    The defanged format was used to ensure the safe handling of malicious indicators.
 
-   ![Image 3](https://example.com/image3.png)  
+   ![Image 3](https://github.com/user-attachments/assets/f9e8baf3-ba2b-49d5-9ddf-c8867db11f72)
    *Image 3: Defanging the suspicious source IP address*
 
 3. **Malicious Domain from http.log**  
@@ -54,7 +54,8 @@ The main objective of this project is to confirm whether the phishing alert is a
    cat http.log
    &&&
    
-   ![Image 5](https://github.com/user-attachments/assets/f9e8baf3-ba2b-49d5-9ddf-c8867db11f72)
+   ![Image 5]![image](https://github.com/user-attachments/assets/636feecb-8bfb-4e8d-ad24-dee920d5b6c9)
+
 
    *Image 5: Investigation of the `http.log` file showing the malicious domain*
 
