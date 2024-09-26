@@ -30,7 +30,7 @@ The main objective of this project is to confirm whether the phishing alert is a
    &&&
    This command extracted HTTP logs and identified suspicious activity from the network traffic.
 
-   ![Image 2]!(https://github.com/user-attachments/assets/70fb867d-8c23-409e-9abc-c6da07ebb84a)
+   ![Image 2](https://github.com/user-attachments/assets/70fb867d-8c23-409e-9abc-c6da07ebb84a)
 
    *Image 2: Command used to investigate logs with Zeek*
 
